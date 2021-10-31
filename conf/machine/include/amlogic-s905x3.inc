@@ -5,4 +5,4 @@ require conf/machine/include/amlogic-meson64.inc
 DEFAULTTUNE = "armv8a-crc-crypto"
 MACHINE_FEATURES = "serial usbhost sdio screen wifi"
 
-SOC_FAMILY_append = ":meson-sm1"
+SOC_FAMILY:append = ":meson-sm1"
